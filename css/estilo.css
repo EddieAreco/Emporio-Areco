@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*//////////////////     CONFIGURACION DE LOS FONDOS DE PANTALLA    /////////////////////*/
+
+.home-page {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/imagenprincipal.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fondo-nosotros {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondonosotros.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fondo-contacto {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocontacto.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fondo-cervezas {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocervezas.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fondo-gaseosas {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondogaseosas.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fondo-vinos {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondovinos.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fondo-alcohol {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondoalcohol.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*//////////////////     INICIO DE BARRA DE NAVEGACION    /////////////////////*/
+
+header {
+    background-color: #242121;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-radius: 0 0 10px 10px;
+}
+
+.carrito-celular{
+    display: none;
+}
+
+.row a {
+    display: none;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar .nav-link{
+    color: #fff;
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    background-color: #242121;
+}
+
+.form-control{
+    height: 49px;
+    margin-top: 15px;
+}
+
+.d-flex button{
+    margin-right: 10px;
+    outline: 1.5px solid orange;
+    color: orange;
+}
+
+.d-flex button:hover{
+    background-color: orange;
+    color: #fff;
+}
+
+.navbar img {
+    width: 40px;
+    margin-bottom: 11px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+/*.menu-escritorio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 7px;
+}
+
+.menu-celular {
+    display: none;
+}
+
+.menu-escritorio ul{
+    margin-left: auto;
+}
+
+.menu-escritorio ul li {
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+}
+
+.menu a {
+    color: #fff;
+    padding-left: 20px;
+}
+
+nav ul li:hover {
+    font-size: 20px;
+    transition: 0.9s;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+*/
+
+/*//////////////////     INICIO DE MAIN    /////////////////////*/
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: #242121;
+}
+
+h1 img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.slogan {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: orange;
+    display: block;
+    background-color: #242121;
+}
+
+/*//////////////////     INICIO DE PRODUCTOS    /////////////////////*/
+
+h2 {
+    text-align: center;
+    color: white;
+    margin: 30px;
+    letter-spacing: 6px;
+    text-decoration: underline 2px;
+}
+
+.cajaVendidos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-items: center;
+    margin: 20px 0;
+}
+
+.caja-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px black;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 240px;
+    margin: 12px;
+}
+
+.cajaVendidos img {
+    margin: 30px;
+    max-height: 200px;
+}
+
+.cajaOfertas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-items: center;
+    margin: 20px 0;
+}
+
+.cajaOfertas img {
+    margin: 30px;
+    max-height: 200px;
+}
+
+.cajaProductos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center center;
+}
+
+.cajaProductos img {
+    margin: 30px;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.descripcion {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.precio{
+    display: flex;
+    flex-direction: row;
+}
+
+.enteros{
+    color: #fff;
+    font-size: 25px;
+}
+
+.decimales{
+    color: #fff;
+    margin-top: 3px;
+}
+
+button {
+    cursor: pointer;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #242121;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #242121;
+}
+
+/*BOOTSTRAP*/
+/*
+main .container-fluid{
+    margin: 30px 0;
+}
+
+.row .card{
+    box-shadow: 6px 6px 5px black;
+}
+
+.card-img{
+    margin-top: 15px;
+    height: 200px;
+}*/  
+
+/*//////////////////     INICIO DE SECCION VIDEO    /////////////////////*/
+
+main h3 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 35px;
+    letter-spacing: 10px;
+    text-decoration: underline 2px;
+}
+
+.caja-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin: 20px;
+}
+
+.video {
+    margin: auto;
+    width: 100%;
+}
+
+/*//////////////////     INICIO MAIN SECCION NOSOTROS    /////////////////////*/
+
+.texto-seccion-nosotros {
+    width: 50%;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.caja-nosotros img {
+    width: 40%;
+    height: 40%;
+    opacity: 0.85;
+    z-index: 1;
+}
+
+main .container-fluid .row .imagen-nosotros:hover{
+    transform: translateY(-30px);
+    transition: 0.9s;
+}
+/*//////////////////     INICIO MAIN SECCION CONTACTO    /////////////////////*/
+
+main .container .row .imagen-contacto:hover{
+    transform: translateY(-30px);
+    transition: 0.9s;
+}
+
+/*//////////////////     INICIO DE FOOTER    /////////////////////*/
+footer{
+    background-color: #242121;
+}
+
+footer img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+h5{
+    letter-spacing: 3px;
+}
+
+/*//////////////////     INICIO DE REDES    /////////////////////*/
+
+footer p{
+    color: #fff;
+    margin-top: 40px;
+}
+
+:root {
+    --instagram: #C13584;
+    --whatsapp: #25D366;
+    --facebook: #4267B2;
+}
+
+footer ul:hover a {
+    filter: blur(2px);
+}
+
+footer ul li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    filter: none;
+}
+
+footer ul li .instagram:hover {
+    background-color: var(--instagram);
+    padding: 8px 15px;
+}
+
+footer ul li .whatsapp:hover {
+    background-color: var(--whatsapp);
+    padding: 8px 15px;
+}
+
+footer ul li .facebook:hover {
+    background-color: var(--facebook);
+    padding: 8px 15px;
+}
+
+footer ul li {
+    font-size: 30px;
+}
+
+/*//////////////////     INICIO MEDIOS DE PAGO    /////////////////////*/
+
+footer a img{
+    width: 55px;
+    height: 35px;
+}
+
+/*//////////////////     DISEÑO MOBILE    /////////////////////*/
+
+/*//////////////////     INICIO DE BARRA DE NAVEGACION    /////////////////////*/
+
+@media (max-width: 995px) {
+
+    .row{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .carrito-celular{
+        display: inline-block;
+    }
+
+    .row a{
+        display: block;
+        margin: auto;
+        width: 70%;
+    }
+
+    .row img{
+        float: right;
+    }
+
+    h1 a {
+        display: none;
+    }
+
+    .carrito{
+        display: none;
+    }
+/*
+    .menu-escritorio img {
+        display: none;
+    }
+
+    .menu-celular {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+
+    .menu-celular img {
+        width: 30px;
+        margin-bottom: 8px;
+        margin-right: 20px;
+    }
+
+    .secciones {
+        display: none;
+    }
+
+    .fa-bars {
+        font-size: 25px;
+        color: white;
+        margin-right: 20px;
+    }
+
+    nav ul {
+        display: none;
+    }
+*/
+    /*//////////////////     INICIO DE PRODUCTOS    /////////////////////*/
+
+    .cajaVendidos {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center center;
+    }
+
+    .cajaOfertas {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center center;
+    }
+
+    .cajaProductos {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center center;
+    }
+
+    /*//////////////////     INICIO DE FOOTER    /////////////////////*/
+
+    .ubicacion{
+        display: none;
+    }
+
+    footer .logo{
+        display: none;
+    }
+
+    /*.footer {
+        display: grid;
+        grid-template-areas: 
+        "logo horarios"
+        "redes redes";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer img{
+        grid-area: logo;
+        width: 150px;
+        height: 150px;
+    }
+
+    .horario{
+        grid-area: horarios;
+    }
+
+    footer h3 {
+        display: none;
+    }
+
+    footer iframe {
+        display: none;
+    }
+
+    .caja-derecha{
+        grid-area: redes;
+        margin-top: 40px;
+    }
+
+    footer p{
+        margin-bottom: 25px;
+    }
+    */
+
+    /*//////////////////     INICIO DE NOSOTROS    /////////////////////*/
+
+    main .container-fluid .row .imagen-nosotros{
+        display: none;
+    }
+
+    /*//////////////////     INICIO DE CONTACTO    /////////////////////*/
+
+    main .container .row .imagen-contacto {
+        display: none;
+    }
+
+    
+    /*<button type="button" class="btn btn-damage" id="toastbtn">Enviar</button>
+    <div class="toast">
+        <div class="toast-header">
+          <strong class="me-auto">Gracias por escribirnos</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+        </div>
+        <div class="toast-body">
+          <p>¡Tu mensaje a sido recibido!</p>
+        </div>
+      </div>
+      <script>
+        document.getElementById("toastbtn").onclick = function() {
+          var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+          var toastList = toastElList.map(function(toastEl) {
+            return new bootstrap.Toast(toastEl)
+          })
+          toastList.forEach(toast => toast.show()) 
+        }
+        </script>-->
+    */
+}
