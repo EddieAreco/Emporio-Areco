@@ -63,31 +63,6 @@
             </div>
             <img src="../ilustraciones/bx-cart.svg" alt="carrito de compras" class="carrito">
         </nav>
-        <!-- <nav class="menu"> 
-            <div class="menu-escritorio">
-                <ul>
-                    <li><a href="html/nosotros.html">NOSOTROS</a></li>
-                    <li><a href="html/cervezas.html">CERVEZAS</a></li>
-                    <li><a href="html/vinos.html">VINOS</a></li>
-                    <li><a href="html/gaseosas.html">GASEOSAS</a></li>
-                    <li><a href="html/alcohol.html">BEBIDAS ALCOHOLICAS</a></li>
-                    <li><a href="html/contacto.html">CONTACTO</a></li>
-                </ul>
-                <img src="ilustraciones/bx-cart.svg" alt="carrito de compras" class="carrito">
-            </div>
-            <div class="menu-celular">
-                <img src="ilustraciones/bx-cart.svg" alt="carrito de compras" class="carrito">
-                <div class="secciones">
-                    <a href="html/nosotros.html">NOSOTROS</a>
-                    <a href="html/cervezas.html">CERVEZAS</a>
-                    <a href="html/vinos.html">VINOS</a>
-                    <a href="html/gaseosas.html">GASEOSAS</a>
-                    <a href="html/alcohol.html">BEBIDAS ALCOHOLICAS</a>
-                    <a href="html/contacto.html">CONTACTO</a>
-                </div>
-                <span class="fa fa-bars" aria-hidden="true"></span>
-            </div>
-        </nav>-->
     </header>
 
     <main>
@@ -96,58 +71,69 @@
         <div class="container mt-4">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="imagen-contacto col-5 float-start">
-                <img src="../ilustraciones/ilustracioncontacto.svg" class="mx-auto d-block" alt="">
+                    <img src="../ilustraciones/ilustracioncontacto.svg" class="mx-auto d-block" alt="">
+                </div>
+                <div class="col-xl-7 col-sm-12">
+                    <form class="row g-2 mt-3 bg-light border rounded-5 justify-content-center">
+                        <div class="col-12">
+                            <p class="h2 text-uppercase fw-bold text-center text-body mt-2 ">Contacto</p>
+                        </div>
+                        <div class="col-12">
+                            <p class="fw-bolder text-center">¡Hola! En Emporio Areco siempre estamos en búsqueda de la
+                                mejora continúa y de ampliar nuestra red de proveedores con otras empresas, si estás
+                                interesado en formar de nuestro equipo o quieres dejarnos algún mensaje, este es el
+                                lugar para hacerlo através del siguiente formulario</p>
+                        </div>
+                        <div class="col-10">
+                            <input type="nombre"
+                                class="form-control mt-2 border border-warning border-start-0 rounded-end" id="nombre"
+                                placeholder="Ingresa tu nombre*">
+                        </div>
+                        <div class="col-10 mt-4">
+                            <input type="email"
+                                class="form-control mt-2 border border-warning border-start-0 rounded-end" id="email"
+                                placeholder="Ingresa tu email*">
+                        </div>
+                        <div class="col-5 mt-4">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" name="finalidad" id="Cliente">
+                                <label class="form-check-label" for="Cliente">Cliente</label>
+                            </div>
+                        </div>
+                        <div class="col-5 mt-4">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" name="finalidad" id="Proveedor">
+                                <label class="form-check-label" for="Proveedor">Proveedor</label>
+                            </div>
+                        </div>
+                        <div class="col-5 mb-0">
+                            <input type="text" class="form-control border border-warning border-start-0 rounded-end"
+                                id="domicilio" placeholder="Domicilio*">
+                        </div>
+                        <div class="col-3">
+                            <input type="text" class="form-control border border-warning border-start-0 rounded-end"
+                                id="numeracion" placeholder="Numeración*">
+                        </div>
+                        <div class="col-2">
+                            <input type="text" class="form-control border border-warning border-start-0 rounded-end"
+                                id="Ciudad" placeholder="Ciudad*">
+                        </div>
+                        <div class="col-10 align-self-center mt-4">
+                            <textarea class="form-control" id="textarea" placeholder="Dejanos tu mensaje"
+                                maxlength="200"></textarea>
+                        </div>
+                        <div class="col-10 mt-3">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="terminos" id="terminos">
+                                <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-outline-warning">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="col-xl-7 col-sm-12">
-            <form class="row g-2 mt-3 bg-light border rounded-5 justify-content-center">
-                <div class="col-12">
-                    <p class="h2 text-uppercase fw-bold text-center text-body mt-2 ">Contacto</p>
-                </div>
-                <div class="col-12">
-                    <p class="fw-bolder text-center">¡Hola! En Emporio Areco siempre estamos en búsqueda de la mejora continúa y de ampliar nuestra red de proveedores con otras empresas, si estás interesado en formar de nuestro equipo o quieres dejarnos algún mensaje, este es el lugar para hacerlo através del siguiente formulario</p>
-                </div>
-                <div class="col-10">
-                    <input type="nombre" class="form-control mt-2 border border-warning border-start-0 rounded-end" id="nombre" placeholder="Ingresa tu nombre*">
-                </div>
-                <div class="col-10 mt-4">
-                    <input type="email" class="form-control mt-2 border border-warning border-start-0 rounded-end" id="email" placeholder="Ingresa tu email*">
-                </div>
-                <div class="col-5 mt-4">
-                    <div class="form-check">
-                    <input type="radio" class="form-check-input" name="finalidad" id="Cliente">
-                        <label class="form-check-label" for="Cliente">Cliente</label>
-                    </div>
-                </div>
-                <div class="col-5 mt-4">
-                    <div class="form-check">
-                    <input type="radio" class="form-check-input" name="finalidad" id="Proveedor">
-                        <label class="form-check-label" for="Proveedor">Proveedor</label>
-                    </div>
-                </div>
-                <div class="col-5 mb-0">
-                    <input type="text" class="form-control border border-warning border-start-0 rounded-end" id="domicilio" placeholder="Domicilio*">
-                </div>
-                <div class="col-3">
-                    <input type="text" class="form-control border border-warning border-start-0 rounded-end" id="numeracion" placeholder="Numeración*">
-                </div>
-                <div class="col-2">
-                    <input type="text" class="form-control border border-warning border-start-0 rounded-end" id="Ciudad" placeholder="Ciudad*">
-                </div>
-                <div class="col-10 align-self-center mt-4">
-                    <textarea class="form-control" id="textarea" placeholder="Dejanos tu mensaje" maxlength="200"></textarea>
-                </div>
-                <div class="col-10 mt-3">
-                    <div class="form-check">
-                    <input type="checkbox" class="form-check-input" name="terminos" id="terminos">
-                        <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
-                    </div>
-                </div>
-                <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-outline-warning">Enviar</button>
-                </div>
-            </form>
-        </div>
-        </div>
         </div>
     </main>
 
