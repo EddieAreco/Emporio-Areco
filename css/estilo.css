@@ -115,45 +115,6 @@ header {
     color: black;
 }
 
-/*.menu-escritorio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    padding: 7px;
-}
-
-.menu-celular {
-    display: none;
-}
-
-.menu-escritorio ul{
-    margin-left: auto;
-}
-
-.menu-escritorio ul li {
-    display: inline-block;
-    margin: auto;
-    padding: 10px;
-}
-
-.menu a {
-    color: #fff;
-    padding-left: 20px;
-}
-
-nav ul li:hover {
-    font-size: 20px;
-    transition: 0.9s;
-}
-
-a {
-    text-decoration: none;
-    list-style-type: none;
-}
-*/
-
 /*//////////////////     INICIO DE MAIN    /////////////////////*/
 
 h1 {
@@ -339,6 +300,7 @@ main .container-fluid .row .imagen-nosotros:hover{
     transform: translateY(-30px);
     transition: 0.9s;
 }
+
 /*//////////////////     INICIO MAIN SECCION CONTACTO    /////////////////////*/
 
 main .container .row .imagen-contacto:hover{
@@ -442,38 +404,8 @@ footer a img{
     .carrito{
         display: none;
     }
-/*
-    .menu-escritorio img {
-        display: none;
-    }
 
-    .menu-celular {
-        display: flex;
-        justify-content: end;
-        width: 100%;
-    }
-
-    .menu-celular img {
-        width: 30px;
-        margin-bottom: 8px;
-        margin-right: 20px;
-    }
-
-    .secciones {
-        display: none;
-    }
-
-    .fa-bars {
-        font-size: 25px;
-        color: white;
-        margin-right: 20px;
-    }
-
-    nav ul {
-        display: none;
-    }
-*/
-    /*//////////////////     INICIO DE PRODUCTOS    /////////////////////*/
+/*//////////////////     INICIO DE PRODUCTOS    /////////////////////*/
 
     .cajaVendidos {
         display: grid;
@@ -502,42 +434,6 @@ footer a img{
     footer .logo{
         display: none;
     }
-
-    /*.footer {
-        display: grid;
-        grid-template-areas: 
-        "logo horarios"
-        "redes redes";
-        grid-template-columns: 1fr 1fr;
-    }
-
-    footer img{
-        grid-area: logo;
-        width: 150px;
-        height: 150px;
-    }
-
-    .horario{
-        grid-area: horarios;
-    }
-
-    footer h3 {
-        display: none;
-    }
-
-    footer iframe {
-        display: none;
-    }
-
-    .caja-derecha{
-        grid-area: redes;
-        margin-top: 40px;
-    }
-
-    footer p{
-        margin-bottom: 25px;
-    }
-    */
 
     /*//////////////////     INICIO DE NOSOTROS    /////////////////////*/
 
