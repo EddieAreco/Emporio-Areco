@@ -73,6 +73,12 @@ header {
     display: none;
 }
 
+.navbar a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .navbar .nav-link{
     color: #fff;
     font-size: 20px;
