@@ -7,49 +7,42 @@
 /*//////////////////     CONFIGURACION DE LOS FONDOS DE PANTALLA    /////////////////////*/
 
 .home-page {
-    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/imagenprincipal.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .fondo-nosotros {
-    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondonosotros.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .fondo-contacto {
-    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocontacto.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .fondo-cervezas {
-    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocervezas.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .fondo-gaseosas {
-    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondogaseosas.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .fondo-vinos {
-    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondovinos.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .fondo-alcohol {
-    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondoalcohol.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -143,11 +136,15 @@ h2 {
 
 .row .card{
     box-shadow: 6px 6px 5px black;
+    height: 485px;
 }
 
 .row .card .card-img{
-    height: 350px;
+    height: 65%;
+    object-fit: cover;
+    border-bottom: 2px solid #242121;
 }
+
 
 /*//////////////////     INICIO DE SECCION VIDEO    /////////////////////*/
 
