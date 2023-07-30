@@ -127,15 +127,20 @@ h1 img {
     background-color: #242121;
 }
 
+.img-carrousel{
+    height: 450px;
+    object-fit: cover;
+}
+
 /*//////////////////     INICIO DE PRODUCTOS    /////////////////////*/
 
 h2 {
-    letter-spacing: 6px;
-    text-decoration: underline 2px;
+    letter-spacing: 4px;
+    box-shadow: 6px 6px 5px #242121;
 }
 
 .row .card{
-    box-shadow: 6px 6px 5px black;
+    box-shadow: 6px 6px 5px #242121;
     height: 485px;
 }
 
@@ -149,8 +154,8 @@ h2 {
 /*//////////////////     INICIO DE SECCION VIDEO    /////////////////////*/
 
 main h3 {
-    letter-spacing: 10px;
-    text-decoration: underline 2px;
+    letter-spacing: 4px;
+    box-shadow: 6px 6px 5px #242121;
 }
 
 .caja-video {
