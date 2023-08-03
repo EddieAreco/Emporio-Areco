@@ -4,45 +4,92 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 995px) {
+  header .navbar .row {
+    width: 100%;
+    margin-left: 0;
+  }
+  header .navbar .carrito-celular {
+    display: inline-block;
+  }
+  header .navbar .row a {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+  header .navbar .row img {
+    float: right;
+  }
+  header .navbar .carrito {
+    display: none;
+  }
+  main h1 a, main .slogan a, main .container-fluid .row .imagen-nosotros, main .container .row .imagen-contacto {
+    display: none;
+  }
+  footer .container-fluid .row.logo, footer .container-fluid .row .ubicacion {
+    display: none;
+  }
+}
 .home-page {
+  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/imagenprincipal.jpg) fixed;
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/imagenprincipal.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   background-size: cover;
 }
 
 .fondo-nosotros {
+  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondonosotros.jpg) fixed;
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondonosotros.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   background-size: cover;
 }
 
 .fondo-contacto {
+  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocontacto.jpg) fixed;
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocontacto.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   background-size: cover;
 }
 
 .fondo-cervezas {
+  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocervezas.jpg) fixed;
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocervezas.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   background-size: cover;
 }
 
 .fondo-gaseosas {
+  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondogaseosas.jpg) fixed;
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondogaseosas.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   background-size: cover;
 }
 
 .fondo-vinos {
+  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondovinos.jpg) fixed;
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondovinos.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   background-size: cover;
 }
 
 .fondo-alcohol {
+  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondoalcohol.jpg) fixed;
   min-height: 100vh;
-  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondoalcohol.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   background-size: cover;
 }
 
@@ -92,24 +139,23 @@ header .navbar img {
   cursor: pointer;
 }
 header .navbar .collapse .nav-link:hover {
-  color: black;
+  color: rgb(107, 107, 107);
 }
 header .navbar .collapse .dropdown-menu li .dropdown-item:hover {
-  color: black;
+  color: #242121;
 }
 
-main h1 {
+main h1, main .slogan {
   font-family: "Montserrat", sans-serif;
   background-color: #242121;
   font-size: 70px;
 }
-main h1 img {
+main h1 img, main .slogan img {
   width: 60px;
   margin-bottom: 15px;
 }
 main .slogan {
-  font-family: "Montserrat", sans-serif;
-  background-color: #242121;
+  font-size: 15px;
 }
 main .carousel-inner .img-carrousel {
   height: 450px;
@@ -194,33 +240,6 @@ footer ul li .facebook:hover {
 footer a img {
   width: 55px;
   height: 35px;
-}
-
-@media (max-width: 995px) {
-  header .navbar .row {
-    width: 100%;
-    margin-left: 0;
-  }
-  header .navbar .carrito-celular {
-    display: inline-block;
-  }
-  header .navbar .row a {
-    display: block;
-    margin: auto;
-    width: 70%;
-  }
-  header .navbar .row img {
-    float: right;
-  }
-  header .navbar .carrito {
-    display: none;
-  }
-  main h1 a, main .container-fluid .row .imagen-nosotros, main .container .row .imagen-contacto {
-    display: none;
-  }
-  footer .container-fluid .row.logo, footer .container-fluid .row .ubicacion {
-    display: none;
-  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

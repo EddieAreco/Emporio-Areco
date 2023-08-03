@@ -1,0 +1,60 @@
+footer {
+    background-color: $colorPrimario;
+  
+    .container-fluid .row {
+      img {
+        display: inline-block;
+        width: $widthBase*40;
+        height: 200px;
+      }
+  
+      h5 {
+        letter-spacing: 3px;
+      }
+  
+      footer p {
+        color: $colorSecundario;
+        margin-top: 40px;
+      }
+    }
+  
+    ul:hover a {
+      filter: blur(2px);
+    }
+  
+      ul li {
+        a:hover {
+          transform: translateY(-3px) scale(1.05);
+          box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+          filter: none;
+        }
+
+        :root {
+          --instagram:#C13584;
+          --whatsapp:#25D366;
+          --facebook:#4267B2;
+        }
+  
+        .instagram:hover {
+          background-color: var(--instagram);
+          padding: 8px 15px;
+        }
+  
+        .whatsapp:hover {
+          background-color: var(--whatsapp);
+          padding: 8px 15px;
+        }
+  
+        .facebook:hover {
+          background-color: var(--facebook);
+          padding: 8px 15px;
+        }
+  
+        font-size: 30px;
+      }
+  
+      a img {
+        width: $widthBase*11;
+        height: 35px;
+      }
+  }

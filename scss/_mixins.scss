@@ -1,0 +1,7 @@
+@mixin backgroundBody{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}

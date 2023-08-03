@@ -1,0 +1,61 @@
+main {
+    h1 {
+      font-family: $fuenteMontserrat;
+      background-color: $colorPrimario;
+      font-size: 70px;
+  
+      img {
+        width: $widthBase*12;
+        margin-bottom: 15px;
+      }
+    }
+  
+    .slogan {
+      @extend h1;
+      font-size: 15px;
+    }
+  
+    .carousel-inner .img-carrousel {
+      height: 450px;
+      object-fit: cover;
+    }
+
+    h2 {
+        letter-spacing: 4px;
+        box-shadow: $boxshadowCards $colorPrimario;
+      }
+    
+      .row .card {
+        box-shadow: $boxshadowCards $colorPrimario;
+        height: 485px;
+    
+        .card-img {
+          height: 65%;
+          object-fit: cover;
+          border-bottom: 2px solid $colorPrimario;
+        }
+      }
+
+      h3 {
+        letter-spacing: 4px;
+        box-shadow: $boxshadowCards $colorPrimario;
+      }
+    
+      .caja-video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+        margin: 20px;
+    
+        .video {
+          margin: auto;
+          width: 100%;
+        }
+      }
+
+      .container-fluid .row .imagen-nosotros:hover, .container .row .imagen-contacto:hover {
+        transform: translateY(-30px);
+        transition: 0.9s;
+      }
+  }
