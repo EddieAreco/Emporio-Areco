@@ -4,34 +4,8 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 995px) {
-  header .navbar .row {
-    width: 100%;
-    margin-left: 0;
-  }
-  header .navbar .carrito-celular {
-    display: inline-block;
-  }
-  header .navbar .row a {
-    display: block;
-    margin: auto;
-    width: 70%;
-  }
-  header .navbar .row img {
-    float: right;
-  }
-  header .navbar .carrito {
-    display: none;
-  }
-  main h1 a, main .slogan a, main .container-fluid .row .imagen-nosotros, main .container .row .imagen-contacto {
-    display: none;
-  }
-  footer .container-fluid .row.logo, footer .container-fluid .row .ubicacion {
-    display: none;
-  }
-}
-.home-page {
-  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/imagenprincipal.jpg) fixed;
+.fondoindex {
+  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondoindex.jpg) fixed;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -39,16 +13,7 @@
   background-size: cover;
 }
 
-.fondo-nosotros {
-  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondonosotros.jpg) fixed;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  background-size: cover;
-}
-
-.fondo-contacto {
+.fondocontacto {
   background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocontacto.jpg) fixed;
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -57,7 +22,7 @@
   background-size: cover;
 }
 
-.fondo-cervezas {
+.fondocervezas {
   background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocervezas.jpg) fixed;
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -66,7 +31,7 @@
   background-size: cover;
 }
 
-.fondo-gaseosas {
+.fondogaseosas {
   background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondogaseosas.jpg) fixed;
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -75,7 +40,7 @@
   background-size: cover;
 }
 
-.fondo-vinos {
+.fondovinos {
   background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondovinos.jpg) fixed;
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -84,7 +49,7 @@
   background-size: cover;
 }
 
-.fondo-alcohol {
+.fondoalcohol {
   background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondoalcohol.jpg) fixed;
   min-height: 100vh;
   background-repeat: no-repeat;
@@ -240,6 +205,33 @@ footer ul li .facebook:hover {
 footer a img {
   width: 55px;
   height: 35px;
+}
+
+@media (max-width: 995px) {
+  header .navbar .row {
+    width: 100%;
+    margin-left: 0;
+  }
+  header .navbar .carrito-celular {
+    display: inline-block;
+  }
+  header .navbar .row a {
+    display: block;
+    margin: auto;
+    width: 70%;
+  }
+  header .navbar .row img {
+    float: right;
+  }
+  header .navbar .carrito {
+    display: none;
+  }
+  main h1 a, main .slogan a, main .container-fluid .row .imagen-nosotros, main .container .row .imagen-contacto {
+    display: none;
+  }
+  footer .container-fluid .row.logo, footer .container-fluid .row .ubicacion {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

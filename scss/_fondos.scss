@@ -1,36 +1,16 @@
+$fondos: 
+fondoindex, 
+fondocontacto,
+fondocervezas,
+fondogaseosas,
+fondovinos, 
+fondoalcohol;
 
-.home-page {
-    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), 
-    url(../imagenes/imagenprincipal.jpg) fixed;
-    @include backgroundBody();
-}
 
-.fondo-nosotros {
-    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondonosotros.jpg) fixed;
-    @include backgroundBody();
-}
-
-.fondo-contacto {
-    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocontacto.jpg) fixed;
-    @include backgroundBody();
-}
-
-.fondo-cervezas {
-    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondocervezas.jpg) fixed;
-    @include backgroundBody();
-}
-
-.fondo-gaseosas {
-    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondogaseosas.jpg) fixed;
-    @include backgroundBody();
-}
-
-.fondo-vinos {
-    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondovinos.jpg) fixed;
-    @include backgroundBody();
-}
-
-.fondo-alcohol {
-    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondoalcohol.jpg) fixed;
-    @include backgroundBody();
+@each $fondo in $fondos{
+    .#{$fondo}{
+        background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), 
+        url(../imagenes/#{$fondo}.jpg) fixed;
+        @include backgroundBody;
+    }
 }
