@@ -28,26 +28,20 @@ footer {
           box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
           filter: none;
         }
-
-        :root {
-          --instagram:#C13584;
-          --whatsapp:#25D366;
-          --facebook:#4267B2;
-        }
-  
+        
         .instagram:hover {
-          background-color: var(--instagram);
-          padding: 8px 15px;
+          background-color: $instagram;
+          padding: $paddingRedes;
         }
   
         .whatsapp:hover {
-          background-color: var(--whatsapp);
-          padding: 8px 15px;
+          background-color: $whatsapp;
+          padding: $paddingRedes;
         }
   
         .facebook:hover {
-          background-color: var(--facebook);
-          padding: 8px 15px;
+          background-color: $facebook;
+          padding: $paddingRedes;
         }
   
         font-size: 30px;

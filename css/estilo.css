@@ -130,7 +130,7 @@ main .slogan {
   font-size: 15px;
 }
 main .carousel-inner .img-carrousel {
-  height: 450px;
+  height: 530px;
   object-fit: cover;
 }
 main h2 {
@@ -192,21 +192,16 @@ footer ul li a:hover {
   box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
   filter: none;
 }
-footer ul li :root {
-  --instagram:#C13584;
-  --whatsapp:#25D366;
-  --facebook:#4267B2;
-}
 footer ul li .instagram:hover {
-  background-color: var(--instagram);
+  background-color: #C13584;
   padding: 8px 15px;
 }
 footer ul li .whatsapp:hover {
-  background-color: var(--whatsapp);
+  background-color: #25D366;
   padding: 8px 15px;
 }
 footer ul li .facebook:hover {
-  background-color: var(--facebook);
+  background-color: #4267B2;
   padding: 8px 15px;
 }
 footer a img {
