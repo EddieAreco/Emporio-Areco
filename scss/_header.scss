@@ -4,11 +4,9 @@ header {
     top: 0;
     z-index: 10;
     border-radius: 0 0 10px 10px;
-  
+
     .navbar {
-      .carrito-celular, .row a {
-        display: $quitarElemento;
-      }
+      background-color: $colorPrimario;
     }
   
     &.navbar a {
@@ -52,8 +50,6 @@ header {
   
       img {
         width: $widthBase*8;
-        margin-bottom: 2px;
-        margin-right: $marginRightBase*3;
         cursor: pointer;
       }
   

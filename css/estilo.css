@@ -49,6 +49,15 @@
   background-size: cover;
 }
 
+.fondonosotros {
+  background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondonosotros.jpg) fixed;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+
 .fondoalcohol {
   background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../imagenes/fondoalcohol.jpg) fixed;
   min-height: 100vh;
@@ -65,8 +74,8 @@ header {
   z-index: 10;
   border-radius: 0 0 10px 10px;
 }
-header .navbar .carrito-celular, header .navbar .row a {
-  display: none;
+header .navbar {
+  background-color: #242121;
 }
 header.navbar a {
   color: #fff;
@@ -99,8 +108,6 @@ header .navbar .collapse .d-flex button:hover {
 }
 header .navbar img {
   width: 40px;
-  margin-bottom: 2px;
-  margin-right: 15px;
   cursor: pointer;
 }
 header .navbar .collapse .nav-link:hover {
@@ -207,29 +214,18 @@ footer a img {
   height: 35px;
 }
 
+@media (max-width: 575px) {
+  main h1 a, main .slogan a {
+    display: none;
+  }
+}
 @media (max-width: 995px) {
-  header .navbar .row {
-    width: 100%;
-    margin-left: 0;
-  }
-  header .navbar .carrito-celular {
-    display: inline-block;
-  }
-  header .navbar .row a {
-    display: block;
-    margin: auto;
-    width: 70%;
-  }
-  header .navbar .row img {
-    float: right;
-  }
-  header .navbar .carrito {
+  main .container-fluid .row .imagen-nosotros,
+  main .container .row .imagen-contacto {
     display: none;
   }
-  main h1 a, main .slogan a, main .container-fluid .row .imagen-nosotros, main .container .row .imagen-contacto {
-    display: none;
-  }
-  footer .container-fluid .row.logo, footer .container-fluid .row .ubicacion {
+  footer .container-fluid .row.logo,
+  footer .container-fluid .row .ubicacion {
     display: none;
   }
 }

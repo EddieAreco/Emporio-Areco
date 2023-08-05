@@ -1,40 +1,28 @@
-@media (max-width: 995px) {
-    header .navbar {
-      .row {
-        width: 100%;
-        margin-left: 0;
-      }
-  
-      .carrito-celular {
-        display: inline-block;
-      }
-  
-      .row {
-        a {
-          display: block;
-          margin: auto;
-          width: 70%;
-        }
-  
-        img {
-          float: right;
-        }
-      }
-  
-      .carrito {
-        display: $quitarElemento;
-      }
-    }
-  
-    main {
-      h1 a, .container-fluid .row .imagen-nosotros, .container .row .imagen-contacto {
-        display: $quitarElemento;
-      }
-    }
-  
-    footer .container-fluid .row {
-      &.logo, .ubicacion {
-        display: $quitarElemento;
-      }
+
+@media (max-width: 575px) {
+
+  main {
+    h1 a {
+      display: $quitarElemento;
     }
   }
+
+}
+
+@media (max-width: 995px) {
+  main {
+
+    .container-fluid .row .imagen-nosotros,
+    .container .row .imagen-contacto {
+      display: $quitarElemento;
+    }
+  }
+
+  footer .container-fluid .row {
+
+    &.logo,
+    .ubicacion {
+      display: $quitarElemento;
+    }
+  }
+}
