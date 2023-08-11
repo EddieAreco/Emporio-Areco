@@ -1,5 +1,14 @@
-
 @media (max-width: 575px) {
+
+  header {
+    nav {
+      .container-fluid {
+        .seccion-escritorio {
+          display: none;
+        }
+      }
+    }
+  }
 
   main {
     h1 a {
