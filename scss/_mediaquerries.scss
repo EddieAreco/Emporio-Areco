@@ -4,7 +4,8 @@
     nav {
       .container-fluid {
         .seccion-escritorio {
-          display: none;
+          display: $quitarElemento;
+          /*BOTONES DE CARRITO Y BUSCAR EN NAVBAR*/
         }
       }
     }
@@ -13,6 +14,7 @@
   main {
     h1 a {
       display: $quitarElemento;
+      /*COPA EN EL NOMBRE DE LA EMPRESA*/
     }
   }
 
@@ -20,6 +22,7 @@
     a img {
       width: $widthBase*2;
       height: 20px;
+      /*MEDIOS DE PAGO*/
     }
   }
 
@@ -31,6 +34,7 @@
     .container-fluid .row .imagen-nosotros,
     .container .row .imagen-contacto {
       display: $quitarElemento;
+      /*IMAGENES SVG*/
     }
   }
 
@@ -41,12 +45,14 @@
     &.logo,
     .ubicacion {
       display: $quitarElemento;
+      /*IFRAME DE FOOTER*/
     }
   }
 
   a img {
     width: $widthBase*8;
     height: 25px;
+    /*MEDIOS DE PAGO*/
   }
 }
 }

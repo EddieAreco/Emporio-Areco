@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -73,82 +74,95 @@ header {
   top: 0;
   z-index: 10;
   border-radius: 0 0 10px 10px;
+  /*CABECERA DE LAS PAGINAS*/
 }
 header .navbar {
   background-color: #242121;
 }
-header.navbar a {
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-}
 header .navbar .nav-link {
   color: #fff;
   font-size: 20px;
+  /*ACCESO A LAS PAGINAS*/
 }
 header .navbar .collapse .dropdown-menu {
   background-color: #242121;
+  /*MENU DESPLEGABLE DE CATEGORIAS*/
 }
 header .navbar .collapse .dropdown-menu li .dropdown-item {
   color: #fff;
+  /*SECCIONES DEL MENU DESPLEGABLE DE CATEGORIAS*/
 }
 header .navbar .collapse .form-control {
   height: 49px;
   margin-top: 15px;
+  /*BUSQUEDA DE PRODUCTOS*/
 }
 header .navbar .collapse .d-flex button {
   margin-right: 10px;
   outline: 1.5px solid orange;
   color: orange;
   height: 47px;
+  /*BOTON DE CARRITO Y BUSCAR*/
 }
 header .navbar .collapse .d-flex button:hover {
   background-color: orange;
   color: #fff;
+  /*EFECTO SOBRE BOTON DE CARRITO Y BUSCAR*/
 }
 header .navbar img {
   width: 40px;
   cursor: pointer;
+  /*BOTON CARRITO*/
 }
 header .navbar .collapse .nav-link:hover {
   color: rgb(107, 107, 107);
+  /*EFECTO SOBRE ENLACES DE NAVBAR*/
 }
 header .navbar .collapse .dropdown-menu li .dropdown-item:hover {
   color: #242121;
+  /*EFECTO SOBRE SECCIONES DEL MENU DESPLEGABLE DE CATEGORIAS*/
 }
 
 main h1, main .slogan {
   font-family: "Montserrat", sans-serif;
   background-color: #242121;
   font-size: 70px;
+  /*TITULO PRINCIPAL*/
 }
 main h1 img, main .slogan img {
   width: 60px;
   margin-bottom: 15px;
+  /*LOGO DE TITULO PRINCIPAL*/
 }
 main .slogan {
   font-size: 15px;
+  /*SLOGAN DE LA EMPRESA*/
 }
 main .carousel-inner .img-carrousel {
   height: 530px;
   object-fit: cover;
+  /*IMAGENES DEL CARROUSEL*/
 }
 main h2 {
   letter-spacing: 4px;
   box-shadow: 6px 6px 5px #242121;
+  /*TITULOS DE SECCIONES DEL SITIO WEB*/
 }
 main .row .card {
   box-shadow: 6px 6px 5px #242121;
   height: 485px;
+  /*CARDS DE PRODUCTOS*/
 }
 main .row .card .card-img {
   height: 65%;
   object-fit: cover;
   border-bottom: 2px solid #242121;
+  /*IMAGENES DE LAS CARDS DE PRODUCTOS*/
 }
 main h3 {
   letter-spacing: 4px;
   box-shadow: 6px 6px 5px #242121;
+  /*TEXTOS DE CARDS DE PRODUCTOS*/
 }
 main .caja-video {
   display: flex;
@@ -156,14 +170,17 @@ main .caja-video {
   align-items: center;
   min-height: 400px;
   margin: 20px;
+  /*CAJA DE LOS VIDEOS DE CADA PAGINA*/
 }
 main .caja-video .video {
   margin: auto;
   width: 100%;
+  /*VIDEOS DE CADA PAGINA*/
 }
 main .container-fluid .row .imagen-nosotros:hover, main .container .row .imagen-contacto:hover {
   transform: translateY(-30px);
   transition: 0.9s;
+  /*ANIMACION SOBRE IMAGENESVG*/
 }
 
 footer {
@@ -173,66 +190,82 @@ footer .container-fluid .row img {
   display: inline-block;
   width: 200px;
   height: 200px;
+  /*LOGO DE FOOTER*/
 }
 footer .container-fluid .row h5 {
   letter-spacing: 3px;
+  /*TEXTOS DE FOOTER*/
 }
 footer .container-fluid .row footer p {
   color: #fff;
   margin-top: 40px;
+  /*PARRAFO DE FOOTER*/
 }
 footer ul:hover a {
   filter: blur(2px);
+  /*ANIMACION RRSS*/
 }
 footer ul li {
   font-size: 30px;
+  /*TAMAÑO LETRAS DE FOOTER*/
 }
 footer ul li a:hover {
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
   filter: none;
+  /*ANIMACION RRSS*/
 }
 footer ul li .instagram:hover {
   background-color: #C13584;
   padding: 8px 15px;
+  /*ANIMACION RRSS*/
 }
 footer ul li .whatsapp:hover {
   background-color: #25D366;
   padding: 8px 15px;
+  /*ANIMACION RRSS*/
 }
 footer ul li .facebook:hover {
   background-color: #4267B2;
   padding: 8px 15px;
+  /*ANIMACION RRSS*/
 }
 footer a img {
   width: 55px;
   height: 35px;
+  /*MEDIOS DE PAGO*/
 }
 
 @media (max-width: 575px) {
   header nav .container-fluid .seccion-escritorio {
     display: none;
+    /*BOTONES DE CARRITO Y BUSCAR EN NAVBAR*/
   }
   main h1 a, main .slogan a {
     display: none;
+    /*COPA EN EL NOMBRE DE LA EMPRESA*/
   }
   footer a img {
     width: 10px;
     height: 20px;
+    /*MEDIOS DE PAGO*/
   }
 }
 @media (max-width: 995px) {
   main .container-fluid .row .imagen-nosotros,
   main .container .row .imagen-contacto {
     display: none;
+    /*IMAGENES SVG*/
   }
   footer .container-fluid .row.logo,
   footer .container-fluid .row .ubicacion {
     display: none;
+    /*IFRAME DE FOOTER*/
   }
   footer a img {
     width: 40px;
     height: 25px;
+    /*MEDIOS DE PAGO*/
   }
 }
 

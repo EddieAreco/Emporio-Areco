@@ -4,35 +4,34 @@ header {
     top: 0;
     z-index: 10;
     border-radius: 0 0 10px 10px;
+    /*CABECERA DE LAS PAGINAS*/
 
     .navbar {
       background-color: $colorPrimario;
-    }
-  
-    &.navbar a {
-      color: $colorSecundario;
-      font-size: 20px;
-      text-decoration: $quitarElemento;
     }
   
     .navbar {
       .nav-link {
         color: $colorSecundario;
         font-size: 20px;
+        /*ACCESO A LAS PAGINAS*/
       }
   
       .collapse {
         .dropdown-menu {
           background-color: $colorPrimario;
+          /*MENU DESPLEGABLE DE CATEGORIAS*/
 
           li .dropdown-item{
             color: $colorSecundario;
+            /*SECCIONES DEL MENU DESPLEGABLE DE CATEGORIAS*/
           }
         }
   
         .form-control {
           height: 49px;
           margin-top: 15px;
+          /*BUSQUEDA DE PRODUCTOS*/
         }
   
         .d-flex button {
@@ -40,10 +39,12 @@ header {
           outline: 1.5px solid $colorTerciario;
           color: $colorTerciario;
           height: 47px;
+          /*BOTON DE CARRITO Y BUSCAR*/
   
           &:hover {
             background-color: $colorTerciario;
             color: $colorSecundario;
+            /*EFECTO SOBRE BOTON DE CARRITO Y BUSCAR*/
           }
         }
       }
@@ -51,14 +52,17 @@ header {
       img {
         width: $widthBase*8;
         cursor: pointer;
+        /*BOTON CARRITO*/
       }
   
       .collapse .nav-link:hover {
         color: rgb(107, 107, 107);
+        /*EFECTO SOBRE ENLACES DE NAVBAR*/
       }
 
       .collapse .dropdown-menu li .dropdown-item:hover{
         color:$colorPrimario;
+        /*EFECTO SOBRE SECCIONES DEL MENU DESPLEGABLE DE CATEGORIAS*/
       }
     }
   }

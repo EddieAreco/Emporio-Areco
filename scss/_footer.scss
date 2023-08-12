@@ -6,20 +6,24 @@ footer {
         display: inline-block;
         width: $widthBase*40;
         height: 200px;
+        /*LOGO DE FOOTER*/
       }
   
       h5 {
         letter-spacing: 3px;
+        /*TEXTOS DE FOOTER*/
       }
   
       footer p {
         color: $colorSecundario;
         margin-top: 40px;
+        /*PARRAFO DE FOOTER*/
       }
     }
   
     ul:hover a {
       filter: blur(2px);
+      /*ANIMACION RRSS*/
     }
   
       ul li {
@@ -27,28 +31,34 @@ footer {
           transform: translateY(-3px) scale(1.05);
           box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
           filter: none;
+          /*ANIMACION RRSS*/
         }
         
         .instagram:hover {
           background-color: $instagram;
           padding: $paddingRedes;
+          /*ANIMACION RRSS*/
         }
   
         .whatsapp:hover {
           background-color: $whatsapp;
           padding: $paddingRedes;
+          /*ANIMACION RRSS*/
         }
   
         .facebook:hover {
           background-color: $facebook;
           padding: $paddingRedes;
+          /*ANIMACION RRSS*/
         }
   
         font-size: 30px;
+        /*TAMAÑO LETRAS DE FOOTER*/
       }
   
       a img {
         width: $widthBase*11;
         height: 35px;
+        /*MEDIOS DE PAGO*/
       }
   }

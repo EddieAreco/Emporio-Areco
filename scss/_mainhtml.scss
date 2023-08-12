@@ -3,42 +3,50 @@ main {
       font-family: $fuenteMontserrat;
       background-color: $colorPrimario;
       font-size: 70px;
+      /*TITULO PRINCIPAL*/
   
       img {
         width: $widthBase*12;
         margin-bottom: 15px;
+        /*LOGO DE TITULO PRINCIPAL*/
       }
     }
   
     .slogan {
       @extend h1;
       font-size: 15px;
+      /*SLOGAN DE LA EMPRESA*/
     }
   
     .carousel-inner .img-carrousel {
       height: 530px;
       object-fit: cover;
+      /*IMAGENES DEL CARROUSEL*/
     }
 
     h2 {
         letter-spacing: 4px;
         box-shadow: $boxshadowCards $colorPrimario;
+        /*TITULOS DE SECCIONES DEL SITIO WEB*/
       }
     
       .row .card {
         box-shadow: $boxshadowCards $colorPrimario;
         height: 485px;
+        /*CARDS DE PRODUCTOS*/
     
         .card-img {
           height: 65%;
           object-fit: cover;
           border-bottom: 2px solid $colorPrimario;
+          /*IMAGENES DE LAS CARDS DE PRODUCTOS*/
         }
       }
 
       h3 {
         letter-spacing: 4px;
         box-shadow: $boxshadowCards $colorPrimario;
+        /*TEXTOS DE CARDS DE PRODUCTOS*/
       }
     
       .caja-video {
@@ -47,15 +55,18 @@ main {
         align-items: center;
         min-height: 400px;
         margin: 20px;
+        /*CAJA DE LOS VIDEOS DE CADA PAGINA*/
     
         .video {
           margin: auto;
           width: 100%;
+          /*VIDEOS DE CADA PAGINA*/
         }
       }
 
       .container-fluid .row .imagen-nosotros:hover, .container .row .imagen-contacto:hover {
         transform: translateY(-30px);
         transition: 0.9s;
+        /*ANIMACION SOBRE IMAGENESVG*/
       }
   }
