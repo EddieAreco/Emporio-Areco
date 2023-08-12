@@ -16,6 +16,13 @@
     }
   }
 
+  footer{
+    a img {
+      width: $widthBase*2;
+      height: 20px;
+    }
+  }
+
 }
 
 @media (max-width: 995px) {
@@ -27,11 +34,19 @@
     }
   }
 
-  footer .container-fluid .row {
+  footer {
+  
+  .container-fluid .row {
 
     &.logo,
     .ubicacion {
       display: $quitarElemento;
     }
   }
+
+  a img {
+    width: $widthBase*8;
+    height: 25px;
+  }
+}
 }
