@@ -236,6 +236,16 @@ footer a img {
   /*MEDIOS DE PAGO*/
 }
 
+body .boton-whatsapp {
+  position: fixed;
+  z-index: 100;
+}
+body .boton-whatsapp img {
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
 @media (max-width: 575px) {
   header nav .container-fluid .seccion-escritorio {
     display: none;
