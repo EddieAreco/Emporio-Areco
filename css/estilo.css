@@ -238,7 +238,9 @@ footer a img {
 
 body .boton-whatsapp {
   position: fixed;
-  z-index: 100;
+  z-index: 1;
+  bottom: 20px;
+  right: 20px;
 }
 body .boton-whatsapp img {
   width: 50px;
