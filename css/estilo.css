@@ -241,11 +241,13 @@ body .boton-whatsapp {
   z-index: 1;
   bottom: 20px;
   right: 20px;
+  /*CONFIGURACION BOTON WHATSAPP*/
 }
 body .boton-whatsapp img {
   width: 50px;
   height: 50px;
   float: right;
+  /*CONFIGURACION BOTON WHATSAPP*/
 }
 
 @media (max-width: 575px) {
