@@ -18,7 +18,7 @@
     }
   }
 
-  footer{
+  footer {
     a img {
       width: $widthBase*2;
       height: 20px;
@@ -29,6 +29,26 @@
 }
 
 @media (max-width: 995px) {
+  footer {
+
+    .container-fluid .row {
+
+      &.logo,
+      .ubicacion {
+        display: $quitarElemento;
+        /*IFRAME DE FOOTER*/
+      }
+    }
+
+    a img {
+      width: $widthBase*8;
+      height: 25px;
+      /*MEDIOS DE PAGO*/
+    }
+  }
+}
+
+@media (max-width: 1199px) {
   main {
 
     .container-fluid .row .imagen-nosotros,
@@ -37,22 +57,4 @@
       /*IMAGENES SVG*/
     }
   }
-
-  footer {
-  
-  .container-fluid .row {
-
-    &.logo,
-    .ubicacion {
-      display: $quitarElemento;
-      /*IFRAME DE FOOTER*/
-    }
-  }
-
-  a img {
-    width: $widthBase*8;
-    height: 25px;
-    /*MEDIOS DE PAGO*/
-  }
-}
 }

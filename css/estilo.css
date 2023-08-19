@@ -266,11 +266,6 @@ body .boton-whatsapp img {
   }
 }
 @media (max-width: 995px) {
-  main .container-fluid .row .imagen-nosotros,
-  main .container .row .imagen-contacto {
-    display: none;
-    /*IMAGENES SVG*/
-  }
   footer .container-fluid .row.logo,
   footer .container-fluid .row .ubicacion {
     display: none;
@@ -280,6 +275,13 @@ body .boton-whatsapp img {
     width: 40px;
     height: 25px;
     /*MEDIOS DE PAGO*/
+  }
+}
+@media (max-width: 1199px) {
+  main .container-fluid .row .imagen-nosotros,
+  main .container .row .imagen-contacto {
+    display: none;
+    /*IMAGENES SVG*/
   }
 }
 
